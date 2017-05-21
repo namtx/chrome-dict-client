@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Chrome Dictionary</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="materialize.min.css">
+    <link rel="stylesheet" href="custom.css">
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="row">
+        <div class="input-field col s6 push-s3">
+          <input id="icon_telephone" type="text" class="validate">
+          <label for="icon_telephone">Search</label>
+        </div>
+      </div>
+      <div class="row">
+        <h1 class="orange-text">
+          <span id="word"></span>
+          <span id="pronunciations"></span>
+          <span class="orange-text lighten-5-text">
+            <i class="material-icons hearing-icons">hearing</i>
+          </span>
+        </h1>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <ul id="lexical-entry-tabs" class="tabs">
+          </ul>
+        </div>
+      </div>
+      <div id="test-swipes">
+      </div>
+    </div>
+    <!-- javascripts -->
+    <script src="jquery-2.2.4.min.js" charset="utf-8"></script>
+    <script src="materialize.min.js" charset="utf-8"></script>
+    <!-- <script src="dictionary.js" charset="utf-8"></script> -->
+    <script src="build/app.js" charset="utf-8"></script>
+  </body>
+</html>

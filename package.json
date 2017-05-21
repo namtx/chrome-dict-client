@@ -1,0 +1,19 @@
+{
+  "name": "blank_ntp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dictionary.js",
+  "scripts": {
+    "build": "sudo browserify -t [ babelify --presets [ react ] ] index.js -o build/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.16.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^7.3.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
